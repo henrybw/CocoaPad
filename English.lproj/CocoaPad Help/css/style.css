@@ -1,0 +1,64 @@
+/************************************
+
+      CocoaPad Help stylesheet
+ ------------------------------------
+ Based on the phpBB 2 subSilver style
+  ...with some modifications by me
+ 
+*************************************/
+
+/* Background color */
+body {
+	background-color: #FFFFFF;
+}
+
+/* Fonts */
+font,th,td,p { font-family: "Lucida Grande", Arial, Helvetica, sans-serif }
+a:link,a:active,a:visited { color : #0000FF; }
+/* a:link,a:active,a:visited { color : #006699; } */
+a:hover		{ text-decoration: underline; color : #FF6600; }
+hr	{ height: 0px; border: solid #D1D7DC 0px; border-top-width: 1px;}
+
+
+/* The largest text used */
+.maintitle,h1,h2	{
+			font-weight: bold; font-size: 22px; font-family: "Lucida Grande",Verdana, Arial, Helvetica, sans-serif;
+			text-decoration: none; line-height : 120%; color : #000000;
+}
+
+/* Category titles */
+.cattitle		{ font-weight: bold; font-size: 18px ; letter-spacing: 1px; color : #000000}
+a.cattitle		{ text-decoration: none; color : #0000FF; }
+a.cattitle:hover{ text-decoration: underline; }
+
+/* General text */
+.gen { font-size : 12px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { color: #006699; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #DD6900; text-decoration: underline; }
+
+/* Small, details text */
+.postdetails		{ font-size : 10px; color : #000000; }
+
+
+/* Another word for General text */
+.postbody { font-size : 12px;}
+a.postlink:link	{ text-decoration: none; color : #006699 }
+a.postlink:visited { text-decoration: none; color : #5493B4; }
+a.postlink:hover { text-decoration: underline; color : #DD6900}
+
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #006600;
+	background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; line-height: 125%;
+	background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}

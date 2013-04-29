@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = CustomTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {
+            ACTIONS = {toggleTraditionalCharacterShape = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                capitalize = id; 
+                changeBackgroundColor = id; 
+                lowercase = id; 
+                makeCPD = id; 
+                makeDocFormat = id; 
+                makePlainText = id; 
+                makeRTFD = id; 
+                makeRichText = id; 
+                showAboutPanel = id; 
+                showPreferencePanel = id; 
+                uppercase = id; 
+                wordCount = id; 
+            }; 
+            CLASS = InterfaceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {window = NSPanel; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

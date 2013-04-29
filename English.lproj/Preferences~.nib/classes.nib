@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                applyToAll = id; 
+                changeBackgroundColor = id; 
+                changeBackupInterval = id; 
+                changeContinuousSpellCheck = id; 
+                changeEnableSmartQuotes = id; 
+                changeFont = id; 
+                changeFormat = id; 
+                changeIgnoreFormatting = id; 
+                changeNewEmptyDoc = id; 
+                changeRTFFont = id; 
+                changeSaveBackup = id; 
+                changeShowRuler = id; 
+                changeShowToolbar = id; 
+                changeTextColor = id; 
+                changeTextFont = id; 
+                revertToOriginal = id; 
+            }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                colorWell = NSColorWell; 
+                continuousSpellCheck = NSButton; 
+                enableSmartQuotesCheckBox = NSButton; 
+                formatCheckboxes = NSMatrix; 
+                ignoreFormattingCheckBox = NSButton; 
+                openNewDoc = NSButton; 
+                plainTextFontNameField = NSTextField; 
+                revertButton = NSButton; 
+                richTextFontNameField = NSTextField; 
+                saveBackupCheckBox = NSButton; 
+                saveBackupInterval = NSTextField; 
+                showRulerCheckBox = NSButton; 
+                showToolbarCheckBox = NSButton; 
+                textColorWell = NSColorWell; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

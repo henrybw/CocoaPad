@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<link href="../css/help.css" rel="stylesheet" media="all">
+<title>Automatic Backup</title>
+<meta name="copyright" content="Copyright 2004, 2005, 2007 Henry Weiss">
+<meta name="description" content="Automatic Backup is a great feature that will backup all open documents at specified intervals, in case a blackout, kernel panic, or some other unfortunate event befalls your Mac.">
+<meta name="keywords" content="backup, automatic backup, unsaved work, blackout, kernel panic, crash, unexpectedly quit, unsaved documents, recover, recovering, lost documents, lost data, recovering lost data">
+</head>
+
+<body>
+<a name="colors"></a>
+<div id="mainbox">
+<div id="caticon">
+<img src="../images/CocoaPad_small.png" alt="CocoaPad Icon" height="32" width="32">
+</div>
+<div id="pagetitle">
+<h1>Automatic Backup</h1>
+</div>
+<p>A dilemma faced by all computer users is saving&#133;and crashes, power outages, etc.  Some programs (especially word processors) have come up with a way to prevent unsaved work from being lost.  CocoaPad includes a method to prevent unsaved work from being lost as well: Automatic Backup.
+
+<p>Automatic Backup, if turned on in the Preferences panel, will backup all documents currently open in CocoaPad at specified intervals (5 minutes by default).  Normally, when CocoaPad quits, it deletes the backups.  But if a crash, blackout, or other kind of disaster prevents CocoaPad from quitting properly, CocoaPad won't be able to delete the backups.  Every time CocoaPad starts up, it checks to see if the backups were deleted or not.  If the backups still exist, then CocoaPad will recover the documents, and alert you that you need to re-save these documents.
+
+<table width="100%"><tr><td align="left" width="32"><img src="../images/note.png" align="left" hspace="5" vspace="5"></td><td align="left" valign="top"><div id="message">CocoaPad will only backup documents that are open <i>inside CocoaPad.</i>  CocoaPad is not a backup program, and it will not backup, say, your documents folder to a FireWire drive; nor will CocoaPad backup your open Microsoft Excel documents.  It will only backup documents that you are working on in the CocoaPad program.</div></td></tr></table>
+
+<p>If you don't want CocoaPad to automatically backup your documents, you can turn this feature off in the Preferences panel.  If you choose to enable this feature, then you can also change how often (in minutes) CocoaPad automatically backs up all open documents.
+
+<table width="100%"><tr><td align="left" width="32"><img src="../images/caution.png" align="left" hspace="5" vspace="5"></td><td align="left" valign="top"><div id="message">If you set the interval to 0 or less (e.g. "-5"), then you may experience erratic behavior, such as crazy slow typing, the cursor always moving to the end of a document, or not being able to select text.  This is due to the fact that with an interval of 0 or less, CocoaPad is trying to backup your documents <i>all the time.</i>  Hence, CocoaPad can get a bit confused about other things.  We recommend you use a backup interval of 1 minute or longer.</div></td></tr></table>
+
+<table width="100%"><tr><td align="left" width="32"><img src="../images/note.png" align="left" hspace="5" vspace="5"></td><td align="left" valign="top"><div id="message">In order for your changes to the backup interval to take effect, you can either press Return once you're done editing the text, switch to a different preferences tab, or close the window. Otherwise, the old backup interval will still be used until you do one of these three things.</div></td></tr></table>
+
+<hr><p><a href="../index.html">Table of Contents</a></p>
+
+</div>
+
+</body>
+
+</html>

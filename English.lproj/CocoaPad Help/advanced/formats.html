@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<link href="../css/help.css" rel="stylesheet" media="all">
+<title>All about file formats</title>
+<meta name="copyright" content="Copyright 2004, 2005, 2007 Henry Weiss">
+<meta name="description" content="CocoaPad can save files in 3 different formats: its own, Rich Text Format (RTF), Rich Text Format with Attachments (RTFD), and plain text.">
+<meta name="keywords" content="files, documents, formats, extensions, format, Rich Text, RTF, text, plain text, .cpd, .rtf, .txt, Rich Text Format with Attachements, RTFD, .rtfd">
+</head>
+
+<body>
+<a name="formats"></a>
+<div id="mainbox">
+<div id="caticon">
+<img src="../images/CocoaPad_small.png" alt="CocoaPad Icon" height="32" width="32">
+</div>
+<div id="pagetitle">
+<h1>All about file formats</h1>
+</div>
+<p>When the word processor came along, they had a great feature that text editors didn't have: the ability to format documents with colors, fonts, etc.  Unfortunately, the programmers who made all the word processors in the world never agreed on one <i>way</i> to save the formatted text.  So, each word processor had its special way of saving formatted text.  Hence, there was lots of confusion and frustration because people had to figure out what format to use, or figure out what word processor someone had, just to send them a document that had formatting.
+
+<p>However, there is one standardized formatting scheme that allows most of the benefits of word processor formats, though.  It's called "Rich Text Format", and users of the Microsoft Word word processor have known this for years.  Apple's TextEdit text editor/word processor saves its documents in Rich Text Format, and many word processors can read Rich Text.
+
+<p>Here's a rundown of the 5 formats CocoaPad can save and open:
+
+<div id="sidebar">
+<ul>
+<li><b>CocoaPad documents</b> (.cpd files) can have graphics and formatting, but they are not currently compatible with any other word processor.
+<li><b>Rich Text Format documents</b> (.rtf files) can have formatting and are compatible with many word processors, but they cannot contain graphics.
+<li><b>Rich Text Format with Attachments documents</b> (.rtfd files) can have graphics and formatting, and they are compatible with TextEdit.  However, they are in a Mac OS X-specific format, and will only work on Mac OS X systems.  This was added only for compatibility with TextEdit.
+<li><b>Microsoft Word documents</b> (.doc files) can have formatting, and are fully compatible with Microsoft Word, yet you need Mac OS X 10.3 Panther to use this feature.  However, not all Microsoft Word documents will work with CocoaPad, because CocoaPad does not support all Microsoft Word document features, such as tables, macros, and graphics.  Still, CocoaPad can create and edit simple Word documents.  Word documents are also compatible with TextEdit for Mac OS X 10.3 Panther, but TextEdit does not support all of Word's document features, like CocoaPad.
+<li><b>Plain text documents</b> (.txt files) do not have any formatting or graphics at all, but they can be read by almost all text editors/word processors.
+</ul>
+</div>
+
+<table width="100%"><tr><td align="left" width="32"><img src="../images/note.png" align="left" hspace="5" vspace="5"></td><td align="left" valign="top"><div id="message">CocoaPad can open almost any document, but if CocoaPad does not understand what is inside the document, the document will appear as plain text.  CocoaPad can also open regular documents as plain text, like CocoaPad and Rich Text documents.  To do so, check the <b>Ignore formatting commands</b> checkbox in the preference panel.  This is useful, for example, if you want to view the behind-the-scenes codes inside a document that tell programs (including CocoaPad) how to format the document.</div></td></tr></table>
+
+<p>CocoaPad has its own formatting scheme also.  It's a variant of the Rich Text with Attachments format, but instead of using Mac OS X-only file packages, CocoaPad encodes the formatting into RTFD data.</p>
+
+<table width="100%"><tr><td align="left" width="32"><img src="../images/note.png" align="left" hspace="5" vspace="5"></td><td align="left" valign="top"><div id="message">The "D" in RTFD stands for "directory", since TextEdit pioneered the technology, and its RTFD files are actually file packages.  File packages are folders that are treated as a regular file by Mac OS X.</div></td></tr></table>
+
+<p>You save your document into any one of these formats by doing the following:
+
+<div id="taskbox">
+<ol>
+<li>Pull down the <b>Format</b> menu.
+<li>Select <b>Convert to &lt;format&gt;</b>, where &lt;format&gt; is the name of the format you want.  If the format you want is grayed-out, then your document is already in that format.
+</ol>
+</div>
+
+<table width="100%"><tr><td align="left" width="32"><img src="../images/note.png" align="left" hspace="5" vspace="5"></td><td align="left" valign="top"><div id="message">If the <b>Convert to Microsoft Word format</b> format is always grayed-out, even if your document is not in Microsoft Word format, then this means you have Mac OS X version 10.2 Jaguar or earlier.  You're operating system version needs to be at least Mac OS X 10.3 (Panther) in order to save and open Word documents.  To purchase Mac OS X 10.3, or to learn more about it, visit <a href="http://www.apple.com/macosx/">Apple's Mac OS X website</a>.</div></td></tr></table>
+
+<table width="100%"><tr><td align="left" width="32"><img src="../images/note.png" align="left" hspace="5" vspace="5"></td><td align="left" valign="top"><div id="message">You can specify what format you want CocoaPad to use when it creates a new document in CocoaPad's preferences.  By default, it creates CocoaPad documents.</div></td></tr></table>
+
+<hr><p><a href="../index.html">Table of Contents</a></p>
+
+</div>
+
+</body>
+
+</html>
